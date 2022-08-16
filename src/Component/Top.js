@@ -14,7 +14,7 @@ function Top() {
                 </div>
                 <div className={click ? "hednav hednavmob" : "hednav"}>
                     <div>
-                        <a target="_blank" href="https://drive.google.com/file/d/1lNLlNGQK0xwr3oCWUJuUxkjtgp_tX_Cd/view?usp=drivesdk">
+                        <a target="_blank" href="https://drive.google.com/file/d/1lNrUB5VCygTJFq9JsNcocwv-Ie8YxrNx/view?usp=drivesdk">
 
                         <button className='btnn'>RESUME ✍</button>
                         </a>
