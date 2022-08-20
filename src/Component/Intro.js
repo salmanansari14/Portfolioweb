@@ -8,7 +8,7 @@ function Intro() {
 
             <div className='m'>
 
-                <img src='/Images/dddd.jpg' alt="salman" className='imag' />
+                <img src='/Images/ddd.jpeg' alt="salman" className='imag' />
 
                 <span className='mh'>
                     <h1>MOHD SALMAN ANSARI</h1>

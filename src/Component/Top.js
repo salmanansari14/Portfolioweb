@@ -20,7 +20,7 @@ function Top() {
                     </div>
                     <nav>
                         <ul className='ull'>
-                            <li className="lin"> <a href="/Portfolioweb">  HOME </a></li>
+                            <li className="lin"> <a href="/">  HOME </a></li>
                             <li className="lin"> <a href="/About">  ABOUT</a></li>
                             <li className="lin"> <a href="/Services"> SERVICES</a></li>
                             <li className="lin"> <a for="Contact" href="/Contact">  CONTACT</a></li>

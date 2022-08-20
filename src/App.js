@@ -7,7 +7,7 @@ import Educa from './Component/Educa';
 import Skill from './Component/Skill';
 import Experience from './Component/Experience';
 import Contact from './Component/Contact';
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 
 function App() {
@@ -87,11 +87,10 @@ function App() {
 
   ]
 
-
   return (
     <div>
 
-      <Router>
+      <BrowserRouter basename='/Portfolioweb' >
         <Top />
 
         <Switch>
@@ -104,11 +103,9 @@ function App() {
           </Route>
 
           <Route exact path="/about">
-            {/* <About /> */}
             <Intro />
           </Route>
           <Route exact path="/Services">
-            {/* <Intro /> */}
             <Skill skillsDetails={skillsDetails} />
           </Route>
 
@@ -119,15 +116,10 @@ function App() {
 
         <Foot />
 
-      </Router>
+      </BrowserRouter>
 
     </div>
 
   );
 }
-
 export default App;
-
-{/* <Educa EducationDetails={EducationDetails} />
-<Skill skillsDetails={skillsDetails} />
-<Experience /> */}
