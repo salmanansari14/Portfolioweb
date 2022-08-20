@@ -5,7 +5,7 @@
     width: 70%;
     /* height: 200px; */
     grid-template-columns: 0.1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 0.3fr 1fr;
     justify-content: center;
     column-gap: 10px;
     row-gap: 10px;
