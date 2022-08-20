@@ -102,9 +102,10 @@ function App() {
             <Contact />
           </Route>
 
-          <Route exact path="/about">
+          <Route exact path="/Portfolioweb/about">
             <Intro />
           </Route>
+
           <Route exact path="/Services">
             <Skill skillsDetails={skillsDetails} />
           </Route>
@@ -115,7 +116,6 @@ function App() {
         </Switch>
 
         <Foot />
-
       </BrowserRouter>
 
     </div>
