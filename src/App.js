@@ -95,7 +95,7 @@ function App() {
         <Top />
 
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/Portfolioweb">
             <Intro />
             <Educa EducationDetails={EducationDetails} />
             <Skill skillsDetails={skillsDetails} />
@@ -117,7 +117,6 @@ function App() {
           </Route>
         </Switch>
 
-            <Contact />
         <Foot />
 
       </Router>
