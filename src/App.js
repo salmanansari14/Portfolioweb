@@ -7,7 +7,7 @@ import Educa from './Component/Educa';
 import Skill from './Component/Skill';
 import Experience from './Component/Experience';
 import Contact from './Component/Contact';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 
 function App() {
