@@ -117,9 +117,7 @@ function App() {
           </Route>
         </Switch>
 
-        {/* <Educa EducationDetails={EducationDetails} />
-        <Skill skillsDetails={skillsDetails} />
-        <Experience /> */}
+            <Contact />
         <Foot />
 
       </Router>
@@ -130,3 +128,7 @@ function App() {
 }
 
 export default App;
+
+{/* <Educa EducationDetails={EducationDetails} />
+<Skill skillsDetails={skillsDetails} />
+<Experience /> */}
