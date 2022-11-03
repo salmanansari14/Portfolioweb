@@ -102,7 +102,7 @@ function App() {
             <Contact />
           </Route>
 
-          <Route exact path="/about">
+          <Route exact path="/Portfolioweb/about">
             <Intro />
           </Route>
 
