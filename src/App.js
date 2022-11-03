@@ -89,20 +89,20 @@ function App() {
 
   return (
     <div>
-
-      <BrowserRouter basename='/Portfolioweb' >
-        <Top />
+{/* basename='/Portfolioweb' */}
+      <BrowserRouter  >
+        <Top/>
 
         <Switch>
           <Route exact path="/Portfolioweb">
-            <Intro />
+            <Intro  />
             <Educa EducationDetails={EducationDetails} />
             <Skill skillsDetails={skillsDetails} />
             <Experience />
             <Contact />
           </Route>
 
-          <Route exact path="/Portfolioweb/about">
+          <Route exact path="/about">
             <Intro />
           </Route>
 
