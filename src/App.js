@@ -94,7 +94,7 @@ function App() {
         <Top/>
 
         <Switch>
-          <Route exact path="/Portfolioweb">
+          <Route exact path="salmanansari14.github.io/Portfolioweb">
             <Intro  />
             <Educa EducationDetails={EducationDetails} />
             <Skill skillsDetails={skillsDetails} />
@@ -117,9 +117,7 @@ function App() {
 
         <Foot />
       </BrowserRouter>
-
     </div>
-
   );
 }
 export default App;
