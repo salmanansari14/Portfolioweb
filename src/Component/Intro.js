@@ -1,15 +1,11 @@
 import '../style/Intro.css'
 // import '../App.css';
-// import './ddd.jpg'
+import '../Images/fff.jpeg'
 function Intro() {
     return (
-
         <div for="Top" className="maincom">
-
             <div className='m'>
-
-                <img src='./Images/ddd.jpeg' alt="salman" className='imag' />
-
+                <img src='../Images/fff.jpeg' alt="salman" className='imag' />
                 <span className='mh'>
                     <h1>MOHD SALMAN ANSARI</h1>
                     <p className='loc'>UP, INDIA
@@ -27,13 +23,11 @@ function Intro() {
                         <a href="https://www.facebook.com/profile.php?id=100010226310346" target="_black" class="media-icons fab">
                             <i class="fa-brands fa-facebook-square"></i>
                         </a>
-                        <a href="https://www.instagram.com/salmansaari/" target="_black" class="media-icons inst">
+                        <a href="https://www.instagram.com/msalmansari/" target="_black" class="media-icons inst">
                             <i class="fa-brands fa-instagram-square"></i>
                         </a>
                     </div>
-
                 </span>
-
             </div>
             <div className='ab'>
                 <h1>About me</h1>
@@ -43,8 +37,6 @@ function Intro() {
                     Outside of Coding.. I usually spend my time with Family...</p>
                 <p>Currently I have practicing coding on <b>Codechef</b> and <b>Hackerrank</b> plateform.</p>
             </div>
-            
-
         </div>
     )
 }

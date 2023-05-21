@@ -139,10 +139,15 @@ nav {
   color: white;
   width: 350px;
   border-style: none;
+  cursor: pointer;
   font-size: 15px;
   border-radius: 10px;
   background-color: rgb(211, 0, 0);
   /* background-color: rgb(211, 126, 14); */
+}
+.btnn:hover{
+  background-image: linear-gradient(red, rgb(122, 73, 0));
+  color: black;
 }
 
 

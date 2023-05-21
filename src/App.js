@@ -94,7 +94,7 @@ function App() {
         <Top/>
 
         <Switch>
-          <Route exact path="salmanansari14.github.io/Portfolioweb">
+          <Route exact path="/Portfolioweb">
             <Intro  />
             <Educa EducationDetails={EducationDetails} />
             <Skill skillsDetails={skillsDetails} />
