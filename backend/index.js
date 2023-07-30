@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 // dotenv.config();
-// app.use(express.urlencoded());
+// app.use(express.urlencoded())
 
 mongoose
     .connect("mongodb://0.0.0.:27017/portfolio", {
