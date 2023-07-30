@@ -24,7 +24,7 @@ function Contact() {
             alert("successfully posted")
         }
         else {
-            alert("please fill all the details")
+            alert("please fffill all the details")
         }
     };
 
